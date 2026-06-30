@@ -162,6 +162,22 @@ export const projects: Project[] = [
   },
   {
     id: 4,
+    title: "Gaming Store Platform",
+    des: "A modern gaming e-commerce platform built with Next.js, TypeScript, Redux Toolkit, and Tailwind CSS. Features include game browsing, category filtering, favorites, shopping cart, authentication, and a responsive user interface.",
+    img: "/gaming.png",
+    iconLists: ["/next.svg", "/ts.svg", "/css.svg"],
+    link: "https://gaming-app-woad.vercel.app/",
+  },
+  {
+    id: 5,
+    title: "Takween Learning Dashboard",
+    des: "A responsive educational dashboard built with Next.js, TypeScript, Redux Toolkit, and RTK Query. It provides course management, instructor profiles, analytics, and dynamic data fetching with a clean, scalable architecture.",
+    img: "/takween.png",
+    iconLists: ["/react-2.svg", "/redux.svg", "/ts.svg", "/javascript-1.svg"],
+    link: "https://takween-dashboard-iota.vercel.app/",
+  },
+  {
+    id: 6,
     title: "React Redux Toolkit Tutorials",
     des: "A series covering Redux Toolkit basics, slices, async thunks, middleware, and RTK Query, using JSONPlaceholder API as a mock data source.",
     img: "/redux.png",
@@ -169,23 +185,16 @@ export const projects: Project[] = [
     link: "https://daliaibrahim58.github.io/redux-app/",
   },
   {
-    id: 5,
+    id: 7,
     title: "🔍 Wikipedia Search API Integration",
     des: "A simple Next.js utility that fetches live Wikipedia results using the MediaWiki API, including images, short extracts, and direct links.",
     img: "/wikires.png",
     iconLists: ["/tail.svg", "/ts.svg", "/next.svg"],
     link: "https://wiki-rocket-khaki.vercel.app/",
   },
+
   {
-    id: 6,
-    title: "Next.js 13 Blog with Remote MDX Integration",
-    des: "A modern blog built with Next.js 13 using remote MDX files, dynamic routes, static generation, and SEO-friendly publishing.",
-    img: "/blog.png",
-    iconLists: ["/tail.svg", "/ts.svg", "/next.svg"],
-    link: "https://blog-posts-smoky.vercel.app/",
-  },
-  {
-    id: 7,
+    id: 8,
     title: "✅ Full-Stack Todo List with Server Actions",
     des: "A Todo List application built with Next.js, React hooks, and server actions. Uses a mock server and includes tests to ensure reliability, with a clean and responsive UI.",
     img: "/todonext.png",
@@ -193,7 +202,7 @@ export const projects: Project[] = [
     link: "https://todo-list-next-with-test.vercel.app/",
   },
   {
-    id: 8,
+    id: 9,
     title: "📘 User & Posts Explorer with Next.js",
     des: "A Next.js application that fetches users from an API and allows browsing their posts with a clean and modern UI.",
     img: "/users.png",
@@ -201,7 +210,7 @@ export const projects: Project[] = [
     link: "https://get-users-brown.vercel.app/",
   },
   {
-    id: 9,
+    id: 10,
     title: "JavaScript OOP Quiz App",
     des: "A quiz application built using JavaScript OOP principles. Fetches questions from an API, supports categories, answers, and result tracking.",
     img: "/quizapp.png",
@@ -209,7 +218,7 @@ export const projects: Project[] = [
     link: "https://daliaibrahim58.github.io/Quiz-App/",
   },
   {
-    id: 10,
+    id: 11,
     title: "React Vite To-Do List",
     des: "A To-Do List application built with React and Vite. Supports task creation and deletion using Material-UI components and UUIDs.",
     img: "/todo.png",
@@ -220,14 +229,6 @@ export const projects: Project[] = [
       "/material-ui-1.svg",
     ],
     link: "https://daliaibrahim58.github.io/to_do_list/",
-  },
-  {
-    id: 11,
-    title: "File Upload System with UploadThing",
-    des: "A modern file upload system built with Next.js and UploadThing, supporting drag & drop uploads with live previews and Tailwind styling.",
-    img: "/uploadthing.png",
-    iconLists: ["/tail.svg", "/ts.svg", "/next.svg"],
-    link: "https://upload-thing-zeta.vercel.app/",
   },
 
   // ===== Not Responsive Projects =====
