@@ -178,6 +178,14 @@ export const projects: Project[] = [
   },
   {
     id: 6,
+    title: "Bundle Builder",
+    des: "A responsive security bundle builder built with React, TypeScript, and Material UI. Features a multi-step product configurator, variant selection with independent quantities, synchronized review panel, live pricing calculations, and a fully JSON-driven architecture.",
+    img: "/bundle-builder.png",
+    iconLists: ["/react-2.svg", "/ts.svg", "/mui.svg", "/javascript-1.svg"],
+    link: "https://bundle-test-one.vercel.app/",
+  },
+  {
+    id: 7,
     title: "React Redux Toolkit Tutorials",
     des: "A series covering Redux Toolkit basics, slices, async thunks, middleware, and RTK Query, using JSONPlaceholder API as a mock data source.",
     img: "/redux.png",
@@ -185,7 +193,7 @@ export const projects: Project[] = [
     link: "https://daliaibrahim58.github.io/redux-app/",
   },
   {
-    id: 7,
+    id: 8,
     title: "🔍 Wikipedia Search API Integration",
     des: "A simple Next.js utility that fetches live Wikipedia results using the MediaWiki API, including images, short extracts, and direct links.",
     img: "/wikires.png",
@@ -194,7 +202,7 @@ export const projects: Project[] = [
   },
 
   {
-    id: 8,
+    id: 9,
     title: "✅ Full-Stack Todo List with Server Actions",
     des: "A Todo List application built with Next.js, React hooks, and server actions. Uses a mock server and includes tests to ensure reliability, with a clean and responsive UI.",
     img: "/todonext.png",
@@ -202,7 +210,7 @@ export const projects: Project[] = [
     link: "https://todo-list-next-with-test.vercel.app/",
   },
   {
-    id: 9,
+    id: 10,
     title: "📘 User & Posts Explorer with Next.js",
     des: "A Next.js application that fetches users from an API and allows browsing their posts with a clean and modern UI.",
     img: "/users.png",
@@ -210,7 +218,7 @@ export const projects: Project[] = [
     link: "https://get-users-brown.vercel.app/",
   },
   {
-    id: 10,
+    id: 11,
     title: "JavaScript OOP Quiz App",
     des: "A quiz application built using JavaScript OOP principles. Fetches questions from an API, supports categories, answers, and result tracking.",
     img: "/quizapp.png",
@@ -218,7 +226,7 @@ export const projects: Project[] = [
     link: "https://daliaibrahim58.github.io/Quiz-App/",
   },
   {
-    id: 11,
+    id: 12,
     title: "React Vite To-Do List",
     des: "A To-Do List application built with React and Vite. Supports task creation and deletion using Material-UI components and UUIDs.",
     img: "/todo.png",
@@ -233,7 +241,7 @@ export const projects: Project[] = [
 
   // ===== Not Responsive Projects =====
   {
-    id: 12,
+    id: 13,
     title: "JavaScript War Game (Not Responsive)",
     des: "A simple war card game built with JavaScript featuring attack mechanics, health points, and restart functionality.",
     img: "/wargame.png",
@@ -241,7 +249,7 @@ export const projects: Project[] = [
     link: "https://daliaibrahim58.github.io/simple-war-game/",
   },
   {
-    id: 13,
+    id: 14,
     title: "Weather Application (Not Responsive)",
     des: "A React + Vite weather application with API integration, localization, Material-UI, Tailwind CSS, and date formatting.",
     img: "/wheather.png",
@@ -254,7 +262,7 @@ export const projects: Project[] = [
     link: "https://daliaibrahim58.github.io/weather-project/",
   },
   {
-    id: 14,
+    id: 15,
     title: "JavaScript E-Commerce Cart (Not Responsive)",
     des: "A pure JavaScript e-commerce cart supporting add, update, delete, favorites, and localStorage persistence.",
     img: "/ecommerce.png",
@@ -262,7 +270,7 @@ export const projects: Project[] = [
     link: "https://daliaibrahim58.github.io/E-commerce-shopping-cart/",
   },
   {
-    id: 15,
+    id: 16,
     title: "HTML & CSS Beginner Project (Not Responsive)",
     des: "Early learning project built with pure HTML and CSS to practice layouts and styling.",
     img: "/firstpro.png",
